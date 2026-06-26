@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:martip_mobile/constants/app_strings.dart';
+import 'package:MartipApp/constants/app_strings.dart';
 
 class ValidationHelper {
   static String? validateEmail(String? value) {

@@ -1,8 +1,8 @@
-name: martip_mobile
+name: MartipApp
 description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
 
 # The following defines the version and build number for your application.
 # A version number is three numbers separated by dots, like 1.2.43
@@ -36,44 +36,44 @@ dependencies:
   google_fonts: ^8.1.0
   flutter_svg: ^2.0.0
   cached_network_image: ^3.3.0
-  
+
   # State Management
   get: ^4.6.5
   provider: ^6.0.0
-  
+
   # Database & Storage
   sqflite: ^2.4.3
   path: ^1.9.1
   shared_preferences: ^2.2.2
-  
+
   # HTTP & API
   dio: ^5.3.0
   http: ^1.1.0
-  
+
   # Maps & Location
   google_maps_flutter: ^2.4.0
   geolocator: ^14.0.3
   geocoding: ^4.0.0
-  
+
   # QR Code
   qr_flutter: ^4.0.0
   mobile_scanner: ^7.2.0
-  
+
   # Image & Camera
   image_picker: ^1.0.0
   camera: ^0.12.0+1
-  
+
   # Push Notifications
   firebase_core: ^4.11.0
   firebase_messaging: ^16.4.1
-  
+
   # Validation & Forms
   email_validator: ^3.0.0
-  
+
   # Date & Time
   intl: ^0.20.2
   table_calendar: ^3.0.0
-  
+
   # Loading & Utilities
   shimmer: ^3.0.0
   connectivity_plus: ^7.1.1
@@ -90,13 +90,20 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.3
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/martip_logo.png"
+  adaptive_icon_background: "#6B5CE7"
+  adaptive_icon_foreground: "assets/images/martip_logo.png"
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
 # The following section is specific to Flutter packages.
 flutter:
-
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:mobile_scanner/mobile_scanner.dart';
-import 'package:martip_mobile/constants/app_colors.dart';
-import 'package:martip_mobile/controllers/deposit_controller.dart';
-import 'package:martip_mobile/controllers/auth_controller.dart';
-import 'package:martip_mobile/services/onopay_service.dart';
+import 'package:MartipApp/constants/app_colors.dart';
+import 'package:MartipApp/controllers/deposit_controller.dart';
+import 'package:MartipApp/controllers/auth_controller.dart';
+import 'package:MartipApp/services/onopay_service.dart';
 
 class ScanQrPaymentScreen extends StatefulWidget {
   const ScanQrPaymentScreen({Key? key}) : super(key: key);

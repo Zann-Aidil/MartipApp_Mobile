@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:martip_mobile/constants/app_colors.dart';
+import 'package:MartipApp/constants/app_colors.dart';
 
 class QrCodeScreen extends StatelessWidget {
   const QrCodeScreen({Key? key}) : super(key: key);

@@ -1,7 +1,7 @@
 import 'package:sqflite/sqflite.dart';
 import 'package:path/path.dart';
-import 'package:martip_mobile/models/auth_response_model.dart';
-import 'package:martip_mobile/helpers/logger_helper.dart';
+import 'package:MartipApp/models/auth_response_model.dart';
+import 'package:MartipApp/helpers/logger_helper.dart';
 
 class DatabaseHelper {
   static final DatabaseHelper _instance = DatabaseHelper._internal();

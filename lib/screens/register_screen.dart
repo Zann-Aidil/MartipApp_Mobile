@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:martip_mobile/constants/app_colors.dart';
-import 'package:martip_mobile/constants/app_strings.dart';
-import 'package:martip_mobile/controllers/auth_controller.dart';
-import 'package:martip_mobile/helpers/validation_helper.dart';
-import 'package:martip_mobile/widgets/custom_text_field.dart';
-import 'package:martip_mobile/widgets/custom_button.dart';
+import 'package:MartipApp/constants/app_colors.dart';
+import 'package:MartipApp/constants/app_strings.dart';
+import 'package:MartipApp/controllers/auth_controller.dart';
+import 'package:MartipApp/helpers/validation_helper.dart';
+import 'package:MartipApp/widgets/custom_text_field.dart';
+import 'package:MartipApp/widgets/custom_button.dart';
 
 class RegisterScreen extends StatefulWidget {
   const RegisterScreen({Key? key}) : super(key: key);

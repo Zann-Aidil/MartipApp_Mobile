@@ -1,7 +1,7 @@
-import 'package:martip_mobile/services/api_service.dart';
-import 'package:martip_mobile/models/location_model.dart';
-import 'package:martip_mobile/helpers/logger_helper.dart';
-import 'package:martip_mobile/constants/app_constants.dart';
+import 'package:MartipApp/services/api_service.dart';
+import 'package:MartipApp/models/location_model.dart';
+import 'package:MartipApp/helpers/logger_helper.dart';
+import 'package:MartipApp/constants/app_constants.dart';
 
 class LocationService {
   // DATA DUMMY LOKASI (Bisa diubah/ditambah dari sini oleh Admin/Developer)

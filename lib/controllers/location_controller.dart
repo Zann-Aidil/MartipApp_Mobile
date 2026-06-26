@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
-import 'package:martip_mobile/services/location_service.dart';
-import 'package:martip_mobile/models/location_model.dart';
-import 'package:martip_mobile/helpers/logger_helper.dart';
+import 'package:MartipApp/services/location_service.dart';
+import 'package:MartipApp/models/location_model.dart';
+import 'package:MartipApp/helpers/logger_helper.dart';
 
 class LocationController extends GetxController {
   static LocationController get to => Get.find();

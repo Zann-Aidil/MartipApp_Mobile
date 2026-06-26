@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'dart:io';
-import 'package:martip_mobile/constants/app_colors.dart';
-import 'package:martip_mobile/models/location_model.dart';
+import 'package:MartipApp/constants/app_colors.dart';
+import 'package:MartipApp/models/location_model.dart';
 
 class LocationCard extends StatelessWidget {
   final Location location;

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:martip_mobile/controllers/auth_controller.dart';
+import 'package:MartipApp/controllers/auth_controller.dart';
 
 class CustomAppDrawer extends StatelessWidget {
   const CustomAppDrawer({Key? key}) : super(key: key);

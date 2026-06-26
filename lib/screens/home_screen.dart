@@ -1,18 +1,18 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:martip_mobile/constants/app_colors.dart';
-import 'package:martip_mobile/controllers/location_controller.dart';
-import 'package:martip_mobile/controllers/deposit_controller.dart';
-import 'package:martip_mobile/screens/profil_screen.dart';
-import 'package:martip_mobile/widgets/location_card.dart';
-import 'package:martip_mobile/widgets/deposit_card.dart';
-import 'package:martip_mobile/widgets/state_widgets.dart';
-import 'package:martip_mobile/widgets/custom_app_drawer.dart';
+import 'package:MartipApp/constants/app_colors.dart';
+import 'package:MartipApp/controllers/location_controller.dart';
+import 'package:MartipApp/controllers/deposit_controller.dart';
+import 'package:MartipApp/screens/profil_screen.dart';
+import 'package:MartipApp/widgets/location_card.dart';
+import 'package:MartipApp/widgets/deposit_card.dart';
+import 'package:MartipApp/widgets/state_widgets.dart';
+import 'package:MartipApp/widgets/custom_app_drawer.dart';
 import 'package:mobile_scanner/mobile_scanner.dart';
 import 'dart:convert';
 import 'package:http/http.dart' as http;
-import 'package:martip_mobile/controllers/auth_controller.dart';
+import 'package:MartipApp/controllers/auth_controller.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);

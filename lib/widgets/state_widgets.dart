@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:martip_mobile/constants/app_colors.dart';
-import 'package:martip_mobile/constants/app_strings.dart';
+import 'package:MartipApp/constants/app_colors.dart';
+import 'package:MartipApp/constants/app_strings.dart';
 
 class LoadingWidget extends StatelessWidget {
   final String message;

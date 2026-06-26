@@ -1,8 +1,8 @@
 import 'package:http/http.dart' as http;
 import 'dart:convert';
-import 'package:martip_mobile/constants/app_constants.dart';
-import 'package:martip_mobile/helpers/logger_helper.dart';
-import 'package:martip_mobile/helpers/storage_helper.dart';
+import 'package:MartipApp/constants/app_constants.dart';
+import 'package:MartipApp/helpers/logger_helper.dart';
+import 'package:MartipApp/helpers/storage_helper.dart';
 
 class ApiService {
   static Future<dynamic> get(

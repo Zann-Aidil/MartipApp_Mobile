@@ -1,5 +1,5 @@
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:martip_mobile/constants/app_constants.dart';
+import 'package:MartipApp/constants/app_constants.dart';
 
 class StorageHelper {
   static late SharedPreferences _prefs;

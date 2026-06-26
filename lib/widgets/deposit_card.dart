@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:martip_mobile/constants/app_colors.dart';
-import 'package:martip_mobile/models/deposit_model.dart';
+import 'package:MartipApp/constants/app_colors.dart';
+import 'package:MartipApp/models/deposit_model.dart';
 
 class DepositCard extends StatelessWidget {
   final DepositModel deposit;

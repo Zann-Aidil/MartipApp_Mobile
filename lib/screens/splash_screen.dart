@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:martip_mobile/constants/app_colors.dart';
-import 'package:martip_mobile/helpers/storage_helper.dart';
-import 'package:martip_mobile/helpers/logger_helper.dart';
+import 'package:MartipApp/constants/app_colors.dart';
+import 'package:MartipApp/helpers/storage_helper.dart';
+import 'package:MartipApp/helpers/logger_helper.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({Key? key}) : super(key: key);
