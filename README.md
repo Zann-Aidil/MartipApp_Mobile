@@ -1,6 +1,15 @@
-# martip_mobile
+# MartipApp Mobile
 
-A new Flutter project.
+**MartipApp** adalah aplikasi mobile berbasis Flutter untuk layanan penitipan barang berbasis lokasi. Aplikasi ini memungkinkan pengguna untuk mencari lokasi penitipan terdekat, melakukan penitipan barang melalui scan QR Code, serta melacak status barang secara real-time.
+
+### Fitur Utama
+
+- **Pencarian Lokasi Penitipan** — Menampilkan lokasi penitipan terdekat menggunakan peta interaktif.
+- **Form Titipan** — Formulir untuk mengisi data barang yang akan dititipkan.
+- **Scan QR Code** — Proses penitipan dan pengambilan barang menggunakan QR Code.
+- **Tracking Barang** — Pelacakan status barang secara real-time.
+- **Invoice dan Konfirmasi** — Bukti transaksi dan konfirmasi penitipan barang.
+- **Manajemen Profil** — Pengelolaan akun dan pengaturan pengguna.
 
 ## Instalasi
 
